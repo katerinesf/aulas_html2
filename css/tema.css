@@ -1,0 +1,25 @@
+body {
+    background-color: #313131;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+    height: 40px;
+}
+
+#menu li {
+    text-align: center;
+    padding: 5px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#menu li a:hover {
+    color: blueviolet;
+}
