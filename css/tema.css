@@ -1,13 +1,27 @@
 body {
+    margin: 0;
+    padding-top: 30px;
+    padding: 0;
     background-color: #313131;
+    background-image: url("../img/parede.jpg");
+    /*  background-repeat: no-repeat;
+    background-position: right bottom; */
+
+    color: aliceblue;
 }
 
 #menu {
     display: flex;
     align-items: center;
     list-style-type: none;
-    justify-content: center;
-    height: 40px;
+    justify-content: flex-end;
+    height: 30px;
+    background-color: black;
+    opacity: .5;
+    position: fixed;
+    top: 0;
+    width: 95%;
+    margin: 0;
 }
 
 #menu li {
@@ -22,4 +36,41 @@ body {
 
 #menu li a:hover {
     color: blueviolet;
+}
+
+.linha-titulo {
+    background-color: black;
+}
+
+.linha-titulo td {
+    background-color: #b8b8b8;
+}
+
+.linha-corpo {
+    background-color: #3a3a3a;
+}
+
+.linha-corpo:hover {
+    background-color: #b8b8b8;
+}
+
+table,
+tr,
+td {
+    border: aliceblue 1px solid;
+    border-radius: 8px;
+}
+
+.folha {
+    /* background-color: #3a553b; */
+    background-image: url("../img/folha.png");
+    width: 60px;
+    height: 60px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
+
+.folhas {
+    display: flex;
+    justify-content: space-around;
 }
